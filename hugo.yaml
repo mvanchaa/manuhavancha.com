@@ -1,0 +1,27 @@
+baseURL: "https://manuhavancha.com/"
+languageCode: en-us
+title: "Manuha Vancha"
+theme: ["PaperMod"]
+
+defaultContentLanguage: en
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+params:
+  homeInfoParams:
+    Title: "Hi, I'm Manuha 👋"
+    Content: "Just another blog"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 2
+
+frontmatter:
+  format: yaml
